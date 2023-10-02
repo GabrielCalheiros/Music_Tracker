@@ -3,6 +3,10 @@
 <head>
         <title>Music Torrents Collection</title>
 
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./images/favicon.svg">
+
+
         <style>
                 body {
                         max-width: 50%;
@@ -42,20 +46,28 @@
                 <button onclick="aleatorizar()" style="margin-top: 30px;">ALEATORIZAR</button>
         </div>
 
-        <hr>
-        <h1>Music Torrents Collection</h1>
-        <hr>
-        <p>Collections</p>
+        <div class="torrentCollection">
+                <hr>
+                <h1>Music Torrents Collection</h1>
+                <hr>
+                <p>Collections</p>
+        
+                <ul>
+                        <li>
+                                <a href="magnet:?xt=urn:btih:9da563297bb062c71713b84d836d6933ffd6cc0f&dn=The%20Best%20of%20City%20Pop&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+                                CityPop Collection 
+                                </a>
+                        </li>
+                </ul>
 
-        <ul>
-                <li><a href="magnet:?xt=urn:btih:9da563297bb062c71713b84d836d6933ffd6cc0f&dn=The%20Best%20of%20City%20Pop&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
-                CityPop Collection </a></li>
-        </ul><br>
-        <hr>
-        <h3>List of Discographies to find torrents:</h3>
+                <hr>
+                <h3>List of Discographies to find torrents:</h3>
+        
+                <ul id="listaArtistas">
+                </ul>
+        </div>
 
-        <ul id="listaArtistas">
-        </ul>
+
 
         <script>
                 var html = '';
