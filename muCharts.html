@@ -1,0 +1,400 @@
+<html>
+    <head>
+        <title>/Mu/ Charts</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./images/favicon.svg" />
+    
+
+        <style>
+            body {
+                max-width: 70%;
+                margin-left: 15%;
+                background-color: black;
+                color: white;
+                font-family: "Times New Roman", Times, serif;
+            }
+            h3 {
+                text-align: center;
+            }
+
+            .ThreeCollumns {  display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "Genres Other Contries";
+            }
+
+            .Contries { grid-area: Contries; }
+
+            .Genres { grid-area: Genres; }
+
+            .Other { grid-area: Other; }
+
+
+        
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        
+            li:hover,
+            a:hover {
+                color: goldenrod;
+            }
+        
+            p {
+                font-size: large;
+            }
+        
+            hr {
+                color: white;
+            }
+            ol {
+                columns: 1;
+                /* No breaking lines */
+            }
+        </style>
+
+
+
+
+    </head>
+
+    <body>
+        <h1 style="text-align: center">/mu/ Charts</h1>
+        <hr />
+
+        <div class="ThreeCollumns">
+            <div class="Genres"><h3>Genres</h3><hr><ol id="GenresCharts"></ol></div>
+            <div class="Contries"><h3>Contries</h3><hr><ol id="ContriesCharts"></ol></div>
+            <div class="Other"><h3>Other</h3><hr><ol id="OtherCharts"></ol></div>
+        </div>
+
+        <script>
+            var chartsGenres = [
+                "Acid-Funk-Jazz.jpeg",
+                "Afrobeat.jpg",
+                "AGGROTECH.png",
+                "Alt-Grunge_1990s.jpg",
+                "Ambient_1.jpeg",
+                "Ambient_2.png",
+                "Ambient_2000s.jpg",
+                "Ambient_3.jpg",
+                "Ambient_DARK.jpg",
+                "Ambient_DARK_2.png",
+                "Americana.jpg",
+                "Art Pop_1.jpg",
+                "Art Pop_2.jpg",
+                "Atmospheric Sludge Metal.png",
+                "Avant Garde Metal.jpg",
+                "Baroque.png",
+                "Bigbeat_Breakbeat.jpg",
+                "Black Metal_1.jpg",
+                "Black Metal_2.jpg",
+                "Black Metal_Atmospheric.png",
+                "Black Metal_by Country.jpg",
+                "Black Metal_Hipster.png",
+                "Blues.jpg",
+                "Bossa Nova.jpg",
+                "Breakbeats.jpg",
+                "Breakbeat_Hardcore.jpg",
+                "Breakcore.jpg",
+                "Breaks.jpg",
+                "Britpop.jpg",
+                "Britpop_2.jpg",
+                "Brostep.png",
+                "Brostep_Complextro.jpg",
+                "Chillwave.jpg",
+                "Chillwave_2.jpeg",
+                "Chiptune.jpg",
+                "Classical 1750-1830.png",
+                "Classical_2.jpg",
+                "Classical_3.png",
+                "Country.jpg",
+                "Crust_Grindcore_Powerviolence_Thrash.jpg",
+                "Dancepunk.png",
+                "Death Metal _2.jpg",
+                "Death Metal_1.jpg",
+                "Death Metal_SWEDISH.jpg",
+                "Deathcore.png",
+                "Deephouse.png",
+                "Detroit Techno.jpg",
+                "DJENT.jpg",
+                "Doom MEtal.jpg",
+                "Downtempo.png",
+                "Drone.jpg",
+                "DrumNbass.png",
+                "Dubstep.jpeg",
+                "Dubstep_2.JPG",
+                "Dungeon-Synth_1.jpg",
+                "Dungeon-Synth_2.png",
+                "Dungeon-Synth_3.png",
+                "East Coast Hip Hop.jpg",
+                "Electro House.png",
+                "Electro.jpg",
+                "Electronic genre flowchart.jpg",
+                "Electronic_Assorted.jpg",
+                "Electronic_By Genre.jpg",
+                "Electronic_essential.jpeg",
+                "Emo.jpg",
+                "Emo_2.jpg",
+                "Emo_Screamo.png",
+                "Esencjonalna_polska_nowa_fala.jpg",
+                "Experimental Hip Hop.png",
+                "Experimental Hip Hop_2.jpg",
+                "Experimental_Hip_Hop_3.jpg",
+                "Field Recordins.png",
+                "Folk Metal.png",
+                "Folk Punk.jpg",
+                "Folk.jpg",
+                "Freak Folk.jpg",
+                "Freak Folk_2.png",
+                "French Electro-House.jpg",
+                "Funk.jpg",
+                "Funk_Modern.jpg",
+                "Garage.png",
+                "Glitch-Hop.jpg",
+                "Glitch.png",
+                "Glitch_2.jpg",
+                "GOA Trance.jpg",
+                "Goth.jpg",
+                "Grunge.jpg",
+                "Hard_Rock.jpg",
+                "Harsh_noise.jpg",
+                "Hip Hop_1.5.jpg",
+                "Hip Hop_1.jpg",
+                "Hip Hop_2.jpg",
+                "Hip Hop_2010_1.png",
+                "Hip Hop_2010_2.jpg",
+                "Hip Hop_BAY AREA.jpg",
+                "Hip Hop_Concept.jpg",
+                "Hip Hop_INSTRUMENTAL.png",
+                "House.jpg",
+                "Indie Pop.jpg",
+                "Industrial Grunge.jpg",
+                "Industrial Metal.png",
+                "Industrial.jpg",
+                "Italo Disco.png",
+                "Jangle Pop.jpg",
+                "Jazz_1.jpg",
+                "Jazz_2.jpg",
+                "Jazz_3.jpg",
+                "Jungle.jpg",
+                "K Pop.jpg",
+                "Krautrock_1.jpg",
+                "Ladhouse.jpg",
+                "Lolicore.jpg",
+                "Mashup.png",
+                "Math Rock.jpg",
+                "Math Rock_2.jpg",
+                "Mathcore.jpg",
+                "Math_Rock_3.png",
+                "Medieval Music 500-1400.png",
+                "Metalcore.jpg",
+                "Metal_100 Essentials.jpg",
+                "Minimal Techno-Micro House.png",
+                "Neofolk.jpg",
+                "Neoprog.jpg",
+                "Neurofunk.png",
+                "New Wave.jpg",
+                "No Wave.png",
+                "Noise Rock.jpg",
+                "Noise.jpg",
+                "Noise_rock.jpg",
+                "Nu Metal.jpg",
+                "Patrician Pop.png",
+                "Pop Punk.png",
+                "Post Hardcore.JPG",
+                "Post Hardcore_2.jpg",
+                "Post Hardcore_3.jpg",
+                "Post Punk, 80s Goth.jpg",
+                "Post Punk.jpg",
+                "Post Punk_1.jpg",
+                "Post Punk_70s-80s.jpg",
+                "Post Rock.jpg",
+                "Post Rock_In Waves.jpg",
+                "Power Metal.jpg",
+                "Power Metal_2.jpg",
+                "Power Metal_3.jpg",
+                "Power Pop.png",
+                "Prog Metal.jpg",
+                "Prog Rock_2.jpg",
+                "Prog Rock_3.jpg",
+                "Progressive House.png",
+                "Prog_MODERN.jpg",
+                "Prog_MODERN_2.jpg",
+                "Prog_Rock.jpeg",
+                "Proto Punk.jpg",
+                "Psybient_Psychill.jpg",
+                "Psychedelic Drone.png",
+                "Psychedelic_1960s.jpg",
+                "Psychedelic_MODERN.jpg",
+                "Psychobilly.jpg",
+                "Punk_1970s.jpg",
+                "Punk_1990s.jpg",
+                "Punk_2000s.jpg",
+                "Punk_HARDCORE_1980s.jpg",
+                "Reggae.png",
+                "Reggae_2.jpg",
+                "Renaissance Music.png",
+                "Renaissance_2.jpg",
+                "RocknRoll_1950s.jpg",
+                "Rock_ALTERNATIVE.jpg",
+                "Rock_DESERT.jpg",
+                "Rock_PROG.png",
+                "Sampling.png",
+                "Scratch.jpg",
+                "Screamo.jpg",
+                "Shoegaze.jpeg",
+                "Shoegaze2.jpg",
+                "Shoegaze_1.jpg",
+                "Ska.png",
+                "Ska_2.png",
+                "Slowcore_2.png",
+                "Slowcore_Sadcore.jpg",
+                "SoftRock.jpeg",
+                "Soul.png",
+                "Southern Hip Hop.jpg",
+                "Southern Rock.jpg",
+                "Spoken Word.jpg",
+                "Stoner Rock.jpg",
+                "Stoner Rock_2.jpg",
+                "Surf Rock.gif",
+                "Swing.jpg",
+                "Synthpop.jpg",
+                "Thrash Metal.jpg",
+                "Thumbs.db",
+                "Traditional Metal.png",
+                "Trance.jpg",
+                "Trip Hop.jpeg",
+                "Twee Pop.jpg",
+                "UK Hip Hop.jpg",
+                "Vaporwave.jpg",
+                "Vaporwave_2.jpg",
+                "Warm Drone.jpg",
+                "West Coast HIp Hop.jpg",
+                "Witch House.png",
+                "Zeuhl.png",
+        ];
+            var chartContries = [
+                "Brazilessential.jpg",
+                "Entrylevelchileangarbage.jpg",
+                "French.jpg",
+                "Mucoreaustralian.png",
+                "Mucorecanadian.jpg",
+                "Mucoreiceland.jpg",
+                "Mucorejapanese.jpg",
+                "Mucorenorthernireland.png",
+                "Mucorescottish.png",
+                "Mu_mexico.jpg",
+                "Polish.jpg",
+                "Portuguese.jpg",
+                "Summercore.jpg",
+            ]
+            var chartOthers = [
+            "1314778141544.jpg",
+            "1333472335238.jpg",
+            "1355011104599.jpg",
+            "1357415380476.jpg",
+            "1357465000502.png",
+            "1357561901871.jpg",
+            "1357680064917.jpg",
+            "1357902871345.jpg",
+            "1359640657936.jpg",
+            "1366004350329.jpg",
+            "1372252645227.jpg",
+            "1410448257268.jpg",
+            "1446637556672.jpg",
+            "1446642220034.jpg",
+            "30il08m.jpg",
+            "7.jpg",
+            "B1o.png",
+            "Baldcore.jpg",
+            "Bawwcore.jpg",
+            "Christmas.jpg",
+            "Concept-albums.png",
+            "Dude_weed.jpeg",
+            "EDM_labels.png",
+            "Electronic-genres.png",
+            "Essential_bass+drums_power_duos.png",
+            "Essential_hottopic.jpg",
+            "Fallcore.png",
+            "Fantano-core.png",
+            "Feels.jpg",
+            "Fierce.png",
+            "Glass_breaks.jpg",
+            "Happyfinal.png",
+            "Hipster_Metal.jpeg",
+            "Image.jpg",
+            "Insane-core.png",
+            "INSANECORE.png",
+            "Kitten-Core.jpg",
+            "Live_Albums.jpg",
+            "M.jpg",
+            "Memejizz.png",
+            "Mu-core2012 (1).jpg",
+            "Mu-core2012.jpg",
+            "Mucorecolorcore.jpg",
+            "Mucorecrabcore.jpg",
+            "Mucorehappy.png",
+            "Mucoreinbetweeners.jpg",
+            "Mucoremusicians.png",
+            "Mucoresoundtrack.jpg",
+            "Mucoreswag.jpg",
+            "Mucorewhitepeoplemusic.png",
+            "Mulittv.jpg",
+            "Patrician_Rock.jpeg",
+            "PATRISHIANCOREMAN.jpg",
+            "Pol_final.jpg",
+            "Scarufficore.png",
+            "Sexcore.jpg",
+            "Shitcore.png",
+            "Swnss.png",
+            "Thumbs.db",
+            "Tumblr-core.png",
+            "Ubp3h.jpg",
+            "VfC0CU0.jpg",
+            "Video_Game_OST.jpg",
+            "Winter_albums.png",
+            "Wrong_generashun.jpeg",
+            ]
+        
+            var Genreslist = '';
+            var Countrieslist = '';
+            var Otherslist = '';
+
+            // Create list for genres
+            chartsGenres.forEach((chartsGenres) => {
+                let template = `<a href="./MU's Essential Charts/1Genres/${chartsGenres}" target="_blank"><li>${chartsGenres}</li></a>`;
+                Genreslist += template;
+            });
+            
+            // Adding the list to the page
+            document.getElementById("GenresCharts").innerHTML = Genreslist;
+
+            // Create list for countries
+            chartContries.forEach((chartContries) => {
+                let template = `<a href="./MU's Essential Charts/2Countries/${chartContries}" target="_blank"><li>${chartContries}</li></a>`;
+                Countrieslist += template;
+            });
+            
+            // Adding the list to the page
+            document.getElementById("ContriesCharts").innerHTML = Countrieslist;
+            
+            // Create list for others
+            chartOthers.forEach((chartsOthers) => {
+                let template = `<a href="./MU's Essential Charts/3Other/${chartsOthers}" target="_blank"><li>${chartsOthers}</li></a>`;
+                Otherslist += template;
+            });
+            
+            // Adding the list to the page
+            document.getElementById("OtherCharts").innerHTML = Otherslist;
+            
+        
+        </script>
+    </body>
+
+</html>
