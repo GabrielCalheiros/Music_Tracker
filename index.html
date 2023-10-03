@@ -13,6 +13,17 @@
         color: white;
         font-family: "Times New Roman", Times, serif;
       }
+      button {
+        background: rgb(255,255,255);
+        border: none;
+        color: black;
+        cursor: pointer;
+        margin-top: 2vh;
+        width: 20vh;
+        height: 5vh;
+        border-radius: 10px;
+        font-weight: bolder;
+      }
 
       a {
         text-decoration: none;
@@ -42,8 +53,8 @@
   <body>
     <div style="margin-top: 10vh; text-align: center">
       <h1 id="artista">Artista Aleatorio</h1>
-      <img src="./images/default.jpg" alt="" style="height: 20vh" /><br />
-      <button onclick="aleatorizar()" style="margin-top: 30px">
+      <img src="./images/default.jpg" alt="" style="height: 20vh; width: 20vh; border-radius: 10px;"/><br />
+      <button onclick="aleatorizar()">
         ALEATORIZAR
       </button>
     </div>
