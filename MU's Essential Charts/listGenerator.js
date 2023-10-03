@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define the directories to search
-const directories = ['1Genres', '2Countries', '3Other'];
+// Define the root directory where the script is located
+const rootDirectory = __dirname;
 
 // Function to get all files in a directory
 function getAllFiles(dirPath, arrayOfFiles) {
@@ -11,42 +11,49 @@ function getAllFiles(dirPath, arrayOfFiles) {
   arrayOfFiles = arrayOfFiles || [];
 
   files.forEach((file) => {
-    if (fs.statSync(dirPath + '/' + file).isDirectory()) {
-      arrayOfFiles = getAllFiles(dirPath + '/' + file, arrayOfFiles);
+    const filePath = path.join(dirPath, file);
+    if (fs.statSync(filePath).isDirectory()) {
+      arrayOfFiles = getAllFiles(filePath, arrayOfFiles);
     } else {
-      arrayOfFiles.push(path.join(file));
+      arrayOfFiles.push(filePath);
     }
   });
 
   return arrayOfFiles;
 }
 
-// Function to generate JavaScript arrays
-function generateArrays(dirPath, arrayName) {
-  const allFiles = getAllFiles(dirPath);
-  let jsArray = `${arrayName} = [\n`;
+// Function to generate JavaScript arrays for all subfolders
+function generateArrays(rootDir) {
+  const subfolders = fs.readdirSync(rootDir);
+  const jsArrays = [];
 
-  allFiles.forEach((file, index) => {
-    jsArray += `  "${file.replace(dirPath + '/', '')}"`;
-    if (index < allFiles.length - 1) {
-      jsArray += ',';
+  // Create a list of "Lists Created"
+  const listsCreated = subfolders.map((subfolder) => `"${subfolder}"`);
+  jsArrays.push(`const ListsCreated = [\n  ${listsCreated.join(',\n  ')}\n];`);
+
+  // Generate JavaScript arrays for all subfolders
+  subfolders.forEach((subfolder) => {
+    const subfolderPath = path.join(rootDir, subfolder);
+    if (fs.statSync(subfolderPath).isDirectory()) {
+      const allFiles = getAllFiles(subfolderPath);
+      const jsArray = [];
+
+      allFiles.forEach((file) => {
+        jsArray.push(`"${path.basename(file)}"`);
+      });
+
+      jsArrays.push(`${subfolder} = [\n  ${jsArray.join(',\n  ')}\n];`);
     }
-    jsArray += '\n';
   });
 
-  jsArray += '];\n';
-
-  return jsArray;
+  return jsArrays.join('\n\n');
 }
 
-// Write the JavaScript file
-const outputPath = 'charts.js';
+// Generate JavaScript arrays for all subfolders in the root directory
+const outputFileName = 'lists.js';
+const outputPath = path.join(rootDirectory, outputFileName);
+const listsContent = generateArrays(rootDirectory);
 
-fs.writeFileSync(
-  outputPath,
-  generateArrays(directories[0], 'chartsGenres') +
-    generateArrays(directories[1], 'chartContries') +
-    generateArrays(directories[2], 'chartOthers')
-);
+fs.writeFileSync(outputPath, listsContent);
 
-console.log(`JavaScript file saved to ${outputPath}`);
+console.log(`JavaScript lists file saved to ${outputPath}`);
