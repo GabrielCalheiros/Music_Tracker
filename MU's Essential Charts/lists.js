@@ -230,16 +230,21 @@ const ListsCreated = {"Countries" : [
   "Witch House.png",
   "Zeuhl.png"
 ],
+"Internet" : [
+  "4chan Board Core 1.png",
+  "4chan Pol.jpg",
+  "9gag.jpg",
+  "Board Core 2.jpg",
+  "Tumblr.png",
+  "Twitter 1.png",
+  "Twitter 2.jpg"
+],
 "Other" : [
   "4AD.jpeg",
-  "9gag.jpg",
   "Anime.jpg",
   "Baldcore.jpg",
   "Bawwcore.jpg",
-  "BoardCore 1.png",
-  "BoardCore 2.jpg",
   "Brave New World.jpg",
-  "Christmas.jpg",
   "Concept-albums.png",
   "Creepy_&_Unsettling 1.jpg",
   "Creepy_&_Unsettling 2.jpg",
@@ -276,7 +281,6 @@ const ListsCreated = {"Countries" : [
   "Overarching Story-Core.jpg",
   "Patrician_Rock.jpeg",
   "PATRISHIANCOREMAN.jpg",
-  "Pol_final.jpg",
   "Post-Avant JazzCore.jpg",
   "Scarufficore.png",
   "Sexcore.jpg",
@@ -286,9 +290,6 @@ const ListsCreated = {"Countries" : [
   "Summer Core.jpg",
   "Summercore.jpg",
   "Swnss.png",
-  "Tumblr.png",
-  "Twitter 2.jpg",
-  "Twitter.png",
   "Video_Game_OST.jpg",
   "Weed 1.jpeg",
   "Weed 2.jpeg",
@@ -296,6 +297,17 @@ const ListsCreated = {"Countries" : [
   "Winter Core.png",
   "Wrong_generashun.jpeg"
 ],
+"Seasons" : [
+  "Christmas.jpg",
+  "Summer Core 1.jpg",
+  "Summer Core 2.jpg",
+  "Summer Core 3.png"
+],
+"Themed" : [
+  "September Eleventh.jpg"
+],
 "Years" : [
-  "9_11.jpg"
+  "1970s Punk.jpg",
+  "1970s.jpg",
+  "1990s.jpg"
 ]};
