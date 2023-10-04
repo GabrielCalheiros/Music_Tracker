@@ -312,11 +312,14 @@ const ListsCreated = {"Countries" : [
   "September Eleventh.jpg"
 ],
 "Years" : [
+  "1950s Rock'n'Roll.jpg",
+  "1950s.png",
   "1960s Jazz.jpg",
   "1960s Psychedelia.jpg",
   "1960s.jpg",
   "1970s 1.jpg",
   "1970s 2.jpg",
+  "1970s 3.jpg",
   "1970s Post-Punk.jpg",
   "1970s Punk.jpg",
   "1980s.jpg",
