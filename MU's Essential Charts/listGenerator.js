@@ -22,38 +22,35 @@ function getAllFiles(dirPath, arrayOfFiles) {
   return arrayOfFiles;
 }
 
-// Function to generate JavaScript arrays for all subfolders
+// Function to generate a single JavaScript array with subarrays
 function generateArrays(rootDir) {
   const subfolders = fs.readdirSync(rootDir);
-  const jsArrays = [];
+  const jsArray = [];
 
-  // Create a list of "Lists Created"
-  const listsCreated = subfolders.map((subfolder) => `"${subfolder}"`);
-  jsArrays.push(`const ListsCreated = [\n  ${listsCreated.join(',\n  ')}\n];`);
-
-  // Generate JavaScript arrays for all subfolders
+  // Loop through subfolders
   subfolders.forEach((subfolder) => {
     const subfolderPath = path.join(rootDir, subfolder);
     if (fs.statSync(subfolderPath).isDirectory()) {
       const allFiles = getAllFiles(subfolderPath);
-      const jsArray = [];
+      const subArray = [];
 
+      // Loop through files in the subfolder
       allFiles.forEach((file) => {
-        jsArray.push(`"${path.basename(file)}"`);
+        subArray.push(`"${path.basename(file)}"`);
       });
 
-      jsArrays.push(`${subfolder} = [\n  ${jsArray.join(',\n  ')}\n];`);
+      jsArray.push(`"${subfolder}" : [\n  ${subArray.join(',\n  ')}\n]`);
     }
   });
 
-  return jsArrays.join('\n\n');
+  return `{${jsArray.join(',\n')}}`;
 }
 
-// Generate JavaScript arrays for all subfolders in the root directory
+// Generate the single JavaScript array with subarrays
 const outputFileName = 'lists.js';
 const outputPath = path.join(rootDirectory, outputFileName);
 const listsContent = generateArrays(rootDirectory);
 
-fs.writeFileSync(outputPath, listsContent);
+fs.writeFileSync(outputPath, `const ListsCreated = ${listsContent};`);
 
 console.log(`JavaScript lists file saved to ${outputPath}`);

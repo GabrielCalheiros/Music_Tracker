@@ -1,77 +1,50 @@
 <html>
-    <head>
-        <title>/Mu/ Charts</title>
+  <head>
+    <title>/Mu/ Charts</title>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="./images/favicon.svg" />
-        <script src="./MU's Essential Charts/lists.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.svg" />
+    <script src="./MU's Essential Charts/lists.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
     
+  </head>
 
-        <style>
-            body {
-                max-width: 70%;
-                margin-left: 15%;
-                background-color: black;
-                color: white;
-                font-family: "Times New Roman", Times, serif;
-            }
-            h3 {
-                text-align: center;
-            }
-        
-            a {
-                text-decoration: none;
-                color: white;
-            }
-        
-            li:hover,
-            a:hover {
-                color: goldenrod;
-            }
-        
-            p {
-                font-size: large;
-            }
-        
-            hr {
-                color: white;
-            }
-            ol {
-                columns: 1;
-                /* No breaking lines */
-            }
-        </style>
+  <body>
+    <h1 style="text-align: center; margin-top: 7%">/mu/ Charts</h1>
+    <div id="charts"></div>
 
+    <script>
+      // Function to render the ListsCreated array
+      function renderLists() {
+        const chartsDiv = document.getElementById("charts");
+        let html = "";
 
+        for (const listName in ListsCreated) {
+          if (ListsCreated.hasOwnProperty(listName)) {
+            html += `<hr><h3>${listName}</h3><ol>`;
+            const listItems = ListsCreated[listName];
 
+            listItems.forEach((item) => {
+              html += `<a href="./MU's Essential Charts/${listName}/${item}"><li>${item}</li></a>`;
+            });
 
-    </head>
+            html += "</ol>";
+          }
+        }
 
-    <body>
-        <h1 style="text-align: center; margin-top: 7%;">/mu/ Charts</h1>
-        <div id="charts"></div>
-        
-        <script>
-            html = " ";
-            console.log(ListsCreated);
-            // An loop that goes though all itens inside ListsCreated
-            for (i = 0; i < ListsCreated.length; i++) {
-                html += "<hr><h3>" + ListsCreated[i] + "</h3><ol>";
-                // An loop that goes though all itens inside ListsCreated[i]
-                for (j = 0; j < ListsCreated[i].length; j++) {
-                    html += "<li>" + ListsCreated[i][j] + "</li>";
-                }
-                html += "</ol>";
-            }
-            console.log(html)
-            // add html to the div id = "charts"
-            document.getElementById("charts").innerHTML = html;            
+        chartsDiv.innerHTML = html;
+      }
 
-        
+      // Call the function to render the ListsCreated array
+      renderLists();
+    </script>
+  </body>
 
-        </script>
-        
-
-    </body>
+  
+  <footer style="text-align: center;">
+    <hr>
+    <button style="text-align: center;">⇦ Voltar</button>
+  </footer>
 
 </html>

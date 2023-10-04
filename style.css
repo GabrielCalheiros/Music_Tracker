@@ -1,0 +1,53 @@
+      body {
+        max-width: 70%;
+        margin-left: 15%;
+        background-color: black;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+      }
+      h3 {
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      li:hover,
+      a:hover {
+        color: goldenrod;
+      }
+
+      p {
+        font-size: large;
+      }
+
+      hr {
+        color: white;
+      }
+      ol {
+        columns: 3;
+      }
+
+      button {
+        background: rgb(255,255,255);
+        border: none;
+        color: black;
+        cursor: pointer;
+        margin-top: 2vh;
+        width: 20vh;
+        height: 5vh;
+        border-radius: 10px;
+        font-size: larger;
+        font-weight: bolder;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      button:hover {
+        background-color: goldenrod;
+      }
+
+      button:active {
+        background-color: rgba(218, 165, 32, 0.711);
+      }

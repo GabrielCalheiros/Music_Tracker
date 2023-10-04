@@ -1,13 +1,4 @@
-const ListsCreated = [
-  "Countries",
-  "Genres",
-  "listGenerator.js",
-  "lists.js",
-  "Other",
-  "Years"
-];
-
-Countries = [
+const ListsCreated = {"Countries" : [
   "Australia.png",
   "Brazil 1.jpg",
   "Brazil 2.jpg",
@@ -33,9 +24,8 @@ Countries = [
   "Portugal.jpg",
   "Scotland.png",
   "UK Hiphop.jpg"
-];
-
-Genres = [
+],
+"Genres" : [
   "Acid-Funk-Jazz.jpeg",
   "Afrobeat.jpg",
   "AGGROTECH.png",
@@ -239,9 +229,8 @@ Genres = [
   "West Coast HIp Hop.jpg",
   "Witch House.png",
   "Zeuhl.png"
-];
-
-Other = [
+],
+"Other" : [
   "4AD.jpeg",
   "9gag.jpg",
   "Anime.jpg",
@@ -306,8 +295,7 @@ Other = [
   "Winter Core.jpg",
   "Winter Core.png",
   "Wrong_generashun.jpeg"
-];
-
-Years = [
+],
+"Years" : [
   "9_11.jpg"
-];
+]};
