@@ -136,6 +136,10 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Hip Hop - Southern.jpg",
   "Hip Hop - Triphop.jpeg",
   "HIp Hop - West Coast.jpg",
+  "Industrial - 1.jpg",
+  "Industrial - 2.png",
+  "Industrial - Grunge.jpg",
+  "Industrial - Industrial Elitist.jpg",
   "Jazz - 1.jpg",
   "Jazz - 2.jpg",
   "Jazz - 3.jpg",
@@ -247,12 +251,6 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Vapor Wave - 7.jpg",
   "Vapor Wave - 8.jpg",
   "Vocaloid.jpg"
-],
-"industrial" : [
-  "Industrial - 1.jpg",
-  "Industrial - 2.png",
-  "Industrial - Industrial Elitist.jpg",
-  "Industrial Grunge.jpg"
 ],
 "Internet" : [
   "4chan - Board Core 1.png",
