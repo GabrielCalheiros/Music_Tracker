@@ -1,4 +1,9 @@
-const ListsCreated = {"Countries" : [
+const ListsCreated = {"Bands, Artists and Labels" : [
+  "311.png",
+  "4AD.jpeg",
+  "WU-TANG.jpg"
+],
+"Countries" : [
   "Argentina Math Rock.jpg",
   "Argentina.jpg",
   "Australia.png",
@@ -141,12 +146,20 @@ const ListsCreated = {"Countries" : [
   "Vapor Wave 3.png",
   "Vapor Wave 4.jpg",
   "Vapor Wave 5.jpg",
-  "Vapor Wave 6.jpg"
+  "Vapor Wave 6.jpg",
+  "Vapor Wave 7.jpg"
 ],
 "Internet" : [
   "4chan Board Core 1.png",
   "4chan Board Core 2.jpg",
+  "4chan LeftyPol.jpg",
+  "4chan Mu - Musicians.png",
+  "4chan Mu - New to mu.jpg",
+  "4chan Mu - Sub Essentials.jpg",
+  "4chan Mu.jpg",
   "4chan Pol.jpg",
+  "4chan X 1.png",
+  "4chan X 2.jpg",
   "9gag Core.jpg",
   "Fantano Core.png",
   "Fedora Core.jpg",
@@ -157,7 +170,7 @@ const ListsCreated = {"Countries" : [
 "Mental States" : [
   "Boring Core.jpg",
   "Breakbeat.jpg",
-  "Feels.jpg",
+  "Feels 1.jpg",
   "Fierce.png",
   "Happy Core 1.png",
   "Happy Core 2.png",
@@ -165,29 +178,6 @@ const ListsCreated = {"Countries" : [
   "Insane Core 2.png",
   "Singing Core.jpg",
   "Suicide Chart.jpg"
-],
-"Other" : [
-  "Brave New World.jpg",
-  "Concept-albums.png",
-  "DadRockers_Guide_to_modern_music.jpg",
-  "Electronic - Dance Music.png",
-  "Feels.jpg",
-  "Fierce.png",
-  "Glass_breaks.jpg",
-  "Mu-core2012.jpg",
-  "Mucorecrabcore.jpg",
-  "Mucoreinbetweeners.jpg",
-  "Mucoremusicians.png",
-  "Mucoreswag.jpg",
-  "Mulittv.jpg",
-  "New to mu.jpg",
-  "Overarching Story-Core.jpg",
-  "Patrician_Rock.jpeg",
-  "PATRISHIANCOREMAN.jpg",
-  "Scarufficore.png",
-  "Sub_mu_Essentials.jpg",
-  "Swnss.png",
-  "Wrong_generashun.jpeg"
 ],
 "Seasons" : [
   "Autumn 1.jpg",
@@ -200,24 +190,36 @@ const ListsCreated = {"Countries" : [
   "Winter Core 1.jpg",
   "Winter Core 2.png"
 ],
+"Soundtracks" : [
+  "Anime.jpg",
+  "Film Scores.jpg",
+  "Video Games.jpg"
+],
 "Themed" : [
-  "311 Band.png",
-  "4AD Record Label.jpeg",
   "Bald Core.jpg",
   "Bass & Drums.png",
+  "Brave New World.jpg",
   "Color Core.jpg",
+  "Concept Albums.png",
+  "Crab Core.jpg",
   "Creepy & Unsettling 1.jpg",
   "Creepy & Unsettling 2.jpg",
+  "DadRockers Guide to Modern Music.jpg",
+  "Field Recordings.png",
+  "Flame Shirt Core.png",
+  "Glass Breaks.jpg",
   "Kitten Core.jpg",
   "Live Albums.jpg",
   "Loli Core.jpg",
+  "Millennial Scaruffi Core.png",
+  "Overarching Story Core.jpg",
+  "Patrician Core.jpg",
   "September Eleventh.jpg",
   "SexCore.jpg",
   "Shitcore.png",
-  "Soundtrack - Anime.jpg",
-  "Soundtrack - Film Scores.jpg",
-  "Soundtrack - Video Games.jpg",
-  "White People Music.png"
+  "Swag Core.jpg",
+  "White People Music.png",
+  "Wrong Generashun.jpeg"
 ],
 "Years" : [
   "1400s - 1600s.png",
@@ -233,6 +235,7 @@ const ListsCreated = {"Countries" : [
   "1970s 3.jpg",
   "1970s Post-Punk.jpg",
   "1970s Punk.jpg",
+  "1980s Punk.jpg",
   "1980s.jpg",
   "1990s 1.jpg",
   "1990s 2.jpg",
@@ -242,6 +245,7 @@ const ListsCreated = {"Countries" : [
   "2000s 1.jpg",
   "2000s 2.jpg",
   "2000s Ambient.jpg",
+  "2000s Indie Rock.jpg",
   "2000s Punk.jpg",
   "2010s 1.jpg",
   "2010s 2.jpg",

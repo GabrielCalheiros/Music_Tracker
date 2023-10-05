@@ -5,6 +5,7 @@ body {
   color: white;
   font-family: "Times New Roman", Times, serif;
 }
+
 h3 {
   text-align: center;
 }
@@ -14,8 +15,7 @@ a {
   color: white;
 }
 
-li:hover,
-a:hover {
+li:hover, a:hover {
   color: goldenrod;
 }
 
@@ -26,9 +26,12 @@ p {
 hr {
   color: white;
 }
+
 ol {
   columns: 3;
   text-indent: 3px;
+  column-gap: 50px;
+
 }
 
 button {
