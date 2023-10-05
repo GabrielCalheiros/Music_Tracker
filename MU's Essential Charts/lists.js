@@ -107,6 +107,11 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Eletronic - Dupstep.jpeg",
   "Eletronic - Witchhouse 1.png",
   "Eletronic - Witchhouse 2.jpg",
+  "Folk - 1.jpg",
+  "Folk - Folk Punk.jpg",
+  "Folk - Freak Folk 1.jpg",
+  "Folk - Freak Folk 2.png",
+  "Folk - Weird Folk.jpg",
   "Funk - 1.jpg",
   "Funk - Modern.jpg",
   "Future Funk - 1.png",
@@ -198,6 +203,7 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Punk - PopPunk 1.png",
   "Punk - PopPunk 2.png",
   "Punk - Proto Punk.jpg",
+  "Punk - Ska Punk.png",
   "Rap - 1.jpg",
   "Rap - 2.jpeg",
   "Rap - Cloud Rap.jpg",
@@ -231,6 +237,7 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Rock - Stoner Rock 2.jpg",
   "Rock - Surf Rock.gif",
   "Rock - Yacht Rock.jpeg",
+  "Ska.png",
   "Vapor Wave - 1.jpg",
   "Vapor Wave - 2.jpg",
   "Vapor Wave - 3.png",
@@ -240,6 +247,12 @@ const ListsCreated = {"Bands, Artists and Labels" : [
   "Vapor Wave - 7.jpg",
   "Vapor Wave - 8.jpg",
   "Vocaloid.jpg"
+],
+"industrial" : [
+  "Industrial - 1.jpg",
+  "Industrial - 2.png",
+  "Industrial - Industrial Elitist.jpg",
+  "Industrial Grunge.jpg"
 ],
 "Internet" : [
   "4chan - Board Core 1.png",
