@@ -1,6 +1,6 @@
 body {
-  max-width: 70%;
-  margin-left: 15%;
+  max-width: 50%;
+  margin-left: 25%;
   background-color: black;
   color: white;
   font-family: "Times New Roman", Times, serif;
@@ -53,4 +53,10 @@ button:hover {
 
 button:active {
   background-color: rgba(218, 165, 32, 0.711);
+}
+
+
+.menu_item:hover {
+  color: black;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(0,0,0,1) 100%);
 }
