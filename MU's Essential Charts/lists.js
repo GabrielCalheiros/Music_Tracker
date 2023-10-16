@@ -89,6 +89,7 @@ const ListsCreated = {"By Chronology" : [
   "Spain - Power Metal.png",
   "Spain - Rap.png",
   "Spain - Thrash Metal.png",
+  "Sweden - 1.jpg",
   "Sweden - Death Metal.jpg",
   "Uk - Britpop 1.jpg",
   "Uk - Britpop 2.jpg",
@@ -321,6 +322,7 @@ const ListsCreated = {"By Chronology" : [
   "Emo - 1.jpg",
   "Emo - 2.jpg",
   "Emo - 3.jpeg",
+  "Emo - 3.jpg",
   "Emo - Revival.jpg",
   "Emo - Screamo 1.png",
   "Emo - Screamo 2.jpg",
@@ -331,12 +333,17 @@ const ListsCreated = {"By Chronology" : [
   "Folk - Weird Folk.jpg",
   "Funk - 1.jpg",
   "Funk - Modern.jpg",
+  "Gloom.jpg",
+  "Goth.jpg",
+  "Grindcore - 1.jpg",
+  "Grindcore - 2.jpg",
   "Grunge - 1.jpg",
   "Grunge - 2.jpg",
   "Industrial - 1.jpg",
   "Industrial - 2.png",
   "Industrial - Grunge.jpg",
   "Industrial - Industrial Elitist.jpg",
+  "Industrial Grunge.jpg",
   "Noise - 1.jpg",
   "Noise - 2.jpg",
   "Post Punk - 1.jpg",
@@ -376,7 +383,8 @@ const ListsCreated = {"By Chronology" : [
   "Anime.jpg",
   "Film Scores.jpg",
   "Life Is Strange.jpg",
-  "Video Games.jpg"
+  "Video Games - 1.jpg",
+  "Video Games - 2.jpg"
 ],
 "The Patrician Core Charts" : [
   "Patrician Core -  2013.jpg",
@@ -435,6 +443,7 @@ const ListsCreated = {"By Chronology" : [
   "Insane Core 2.png",
   "Madcunt Mental Patient.png",
   "Singing Core.jpg",
+  "Suicidal People.png",
   "Suicide Chart.jpg"
 ],
 "Themed - Miscelaneous" : [
