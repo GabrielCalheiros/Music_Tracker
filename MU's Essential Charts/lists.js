@@ -98,6 +98,20 @@ const ListsCreated = {"By Chronology" : [
   "United States - Black Metal.jpg",
   "Yogoslavia - Post Punk.jpg"
 ],
+"Genres - Ambient" : [
+  "Ambient - 1.jpeg",
+  "Ambient - 2.png",
+  "Ambient - 3.jpg",
+  "Ambient - Arctic Ambient.jpg",
+  "Ambient - Atmospheric.jpg",
+  "Ambient - Caverncore.png",
+  "Ambient - Dark Ambient 1.jpg",
+  "Ambient - Dark Ambient 2.png",
+  "Ambient - Dungeon Synth 1.png",
+  "Ambient - Dungeon Synth 2.png",
+  "Ambient - Dungeon Synth 3.jpg",
+  "Ambient - Dungeon Synth 4.jpg"
+],
 "Genres - Bossa, Jazz & Blues" : [
   "Blues.jpg",
   "Bossa - 1.jpg",
@@ -294,18 +308,6 @@ const ListsCreated = {"By Chronology" : [
   "Rock - Yacht Rock.jpeg"
 ],
 "Genres - The Rest of Them" : [
-  "Ambient - 1.jpeg",
-  "Ambient - 2.png",
-  "Ambient - 3.jpg",
-  "Ambient - Arctic Ambient.jpg",
-  "Ambient - Atmospheric.jpg",
-  "Ambient - Caverncore.png",
-  "Ambient - Dark Ambient 1.jpg",
-  "Ambient - Dark Ambient 2.png",
-  "Ambient - Dungeon Synth 1.png",
-  "Ambient - Dungeon Synth 2.png",
-  "Ambient - Dungeon Synth 3.jpg",
-  "Ambient - Dungeon Synth 4.jpg",
   "Citypop.png",
   "Country.jpg",
   "Emo - 1.jpg",
