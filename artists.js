@@ -1,5 +1,35 @@
 let artists = [
     {
+      name: "Chico Buarque",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Os Mutantes",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Elis Regina",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Demonios da Garoa",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Tom Jobim",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Sandra de Sá",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
       name: "Tool",
       imageUrl: "./images/default.jpg",
       link: "./",
@@ -262,11 +292,6 @@ let artists = [
     },
     {
       name: "Electric Light Orchestra",
-      imageUrl: "./images/default.jpg",
-      link: "./",
-    },
-    {
-      name: "Elomar",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
@@ -1082,8 +1107,99 @@ let artists = [
       link: "./",
     },
     {
+      name: "Milton Nascimento",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
       name: "Anri",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Djavan",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Caetano Veloso",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Camerata Mediolanese",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Triarii",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Raul Seixas",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Ave Sangria",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Rita Lee",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Tim Maia",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Cartola",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Zé Ramalho",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Blitz",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Camisa de Vênus",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Leo Jaime",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Barão Vermelho",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Sepultura",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Ed Motta",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Dead Kennedys",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
+
   ];
