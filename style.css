@@ -28,10 +28,36 @@ hr {
 }
 
 ol {
-  columns: 3;
+  /* columns: 3; */
   text-indent: 3px;
   column-gap: 50px;
 }
+
+@media screen and (max-width: 900px) {
+  ol{
+    columns: 2 !important;
+  }
+  }
+@media screen and (min-width: 900px) {
+  ol{
+    columns: 3 !important;
+  }
+  }
+
+/* If screen is smaller than 800px, 2 collumns will be displayed */
+@media screen and (max-width: 800px) {
+  ol {
+    columns: 2 !important;
+  }
+}
+
+/* If screen is smaller than 800px, 2 collumns will be displayed */
+@media screen and (min-width: 800px) {
+  ol {
+    columns: 3 !important;
+  }
+}
+
 
 button {
   background: rgb(255, 255, 255);
