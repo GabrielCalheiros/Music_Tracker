@@ -1200,6 +1200,11 @@ let artists = [
       name: "Dead Kennedys",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "The Beatles",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
