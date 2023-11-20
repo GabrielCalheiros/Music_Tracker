@@ -1205,6 +1205,26 @@ let artists = [
       name: "The Beatles",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "The Rolling Stones",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Daft Punk",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Justice",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Stevie Wonder",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
