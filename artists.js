@@ -1225,6 +1225,16 @@ let artists = [
       name: "Stevie Wonder",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Macroblank",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Haircuts for Men",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
