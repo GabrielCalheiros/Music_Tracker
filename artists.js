@@ -1235,6 +1235,11 @@ let artists = [
       name: "Haircuts for Men",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Skinshape",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
