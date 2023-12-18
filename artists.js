@@ -281,11 +281,6 @@ let artists = [
       link: "./",
     },
     {
-      name: "DJ RaMeMes",
-      imageUrl: "./images/default.jpg",
-      link: "./",
-    },
-    {
       name: "Dschinghis Khan",
       imageUrl: "./images/default.jpg",
       link: "./",
@@ -628,11 +623,6 @@ let artists = [
     },
     {
       name: "MGMT",
-      imageUrl: "./images/default.jpg",
-      link: "./",
-    },
-    {
-      name: "Michael Ghelfi",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
@@ -1238,6 +1228,11 @@ let artists = [
     },
     {
       name: "Skinshape",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "REM",
       imageUrl: "./images/default.jpg",
       link: "./",
     }
