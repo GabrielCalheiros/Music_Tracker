@@ -1235,6 +1235,11 @@ let artists = [
       name: "REM",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
+    }, 
+    {
+      name: "Erasmo Carlos",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
 
   ];
