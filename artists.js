@@ -1241,5 +1241,15 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Iron Maiden",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Ozzy Osbourne",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
 
   ];
