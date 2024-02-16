@@ -1250,6 +1250,11 @@ let artists = [
       name: "Ozzy Osbourne",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "RAH BAND",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
