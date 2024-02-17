@@ -1255,6 +1255,17 @@ let artists = [
       name: "RAH BAND",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Steve Lacy",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Steve Lacy",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
+
