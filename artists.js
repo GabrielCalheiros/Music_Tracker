@@ -1262,7 +1262,7 @@ let artists = [
       link: "./",
     },
     {
-      name: "Steve Lacy",
+      name: "Thundercat",
       imageUrl: "./images/default.jpg",
       link: "./",
     }
