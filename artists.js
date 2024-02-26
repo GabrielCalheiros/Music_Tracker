@@ -1275,6 +1275,11 @@ let artists = [
       name: "Snoop Dogg",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Electric Light Orchestra",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
