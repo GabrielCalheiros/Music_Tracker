@@ -1265,7 +1265,11 @@ let artists = [
       name: "Thundercat",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Patrice Rushen",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
-
