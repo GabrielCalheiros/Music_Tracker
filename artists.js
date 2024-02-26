@@ -1270,6 +1270,11 @@ let artists = [
       name: "Patrice Rushen",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Snoop Dogg",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
