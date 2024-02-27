@@ -1285,6 +1285,11 @@ let artists = [
       name: "Sergio Sampaio",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Santana",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
