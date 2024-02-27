@@ -1280,6 +1280,11 @@ let artists = [
       name: "Electric Light Orchestra",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Sergio Sampaio",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
