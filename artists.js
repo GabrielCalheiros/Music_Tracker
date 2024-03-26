@@ -1295,6 +1295,11 @@ let artists = [
       name: "L'Impératrice",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Pino D'Angiò",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
