@@ -1300,6 +1300,11 @@ let artists = [
       name: "Pino D'Angiò",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Sade",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
