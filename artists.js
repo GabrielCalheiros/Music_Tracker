@@ -1290,6 +1290,11 @@ let artists = [
       name: "Santana",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "L'Impératrice",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
   ];
