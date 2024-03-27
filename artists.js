@@ -1306,5 +1306,4 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     }
-
   ];
