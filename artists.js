@@ -1305,5 +1305,15 @@ let artists = [
       name: "Sade",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Alex G",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Los Hermanos",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
