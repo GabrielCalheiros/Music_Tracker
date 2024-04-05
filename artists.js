@@ -1315,5 +1315,10 @@ let artists = [
       name: "Los Hermanos",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Joaquín Díaz",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
