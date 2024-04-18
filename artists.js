@@ -1320,5 +1320,10 @@ let artists = [
       name: "Joaquín Díaz",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Her's",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
