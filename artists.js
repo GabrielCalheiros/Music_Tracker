@@ -1325,5 +1325,10 @@ let artists = [
       name: "Her's",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Angra",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
