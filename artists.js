@@ -1330,5 +1330,10 @@ let artists = [
       name: "Angra",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Saint Pepsi",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
