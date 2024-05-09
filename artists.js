@@ -1340,5 +1340,15 @@ let artists = [
       name: "Rex Orange County",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "The Rolling Stones",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Nirvana",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
