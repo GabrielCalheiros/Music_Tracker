@@ -1335,5 +1335,10 @@ let artists = [
       name: "Saint Pepsi",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Rex Orange County",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
