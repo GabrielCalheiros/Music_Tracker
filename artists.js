@@ -1092,7 +1092,7 @@ let artists = [
       link: "./",
     },
     {
-      name: "ピチカート・ファイヴ",
+      name: "PizzicatoFive",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
