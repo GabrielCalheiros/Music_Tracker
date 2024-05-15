@@ -1350,5 +1350,10 @@ let artists = [
       name: "Nirvana",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Slowerpace ",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
