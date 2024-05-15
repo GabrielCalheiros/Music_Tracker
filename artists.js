@@ -1355,5 +1355,10 @@ let artists = [
       name: "Slowerpace ",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Pink Floyd",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
