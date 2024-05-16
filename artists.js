@@ -171,7 +171,7 @@ let artists = [
       link: "./",
     },
     {
-      name: "boy pablo",
+      name: "Boy Pablo",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
@@ -1072,7 +1072,7 @@ let artists = [
       link: "./",
     },
     {
-      name: "YELLOW MAGIC ORCHESTRA",
+      name: "Yellow Magic Orchestra",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
@@ -1252,7 +1252,7 @@ let artists = [
       link: "./",
     },
     {
-      name: "RAH BAND",
+      name: "Rah Band",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
