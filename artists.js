@@ -286,11 +286,6 @@ let artists = [
       link: "./",
     },
     {
-      name: "Electric Light Orchestra",
-      imageUrl: "./images/default.jpg",
-      link: "./",
-    },
-    {
       name: "Elomar",
       imageUrl: "./images/default.jpg",
       link: "./",
@@ -1338,11 +1333,6 @@ let artists = [
     },
     {
       name: "Rex Orange County",
-      imageUrl: "./images/default.jpg",
-      link: "./",
-    },
-    {
-      name: "The Rolling Stones",
       imageUrl: "./images/default.jpg",
       link: "./",
     },
