@@ -1356,4 +1356,9 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Marcos Valle",
+      imageUrl: "./images/default.jpg", 
+      link: "./",
+    }
   ];
