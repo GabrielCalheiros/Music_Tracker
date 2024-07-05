@@ -1360,5 +1360,10 @@ let artists = [
       name: "Marcos Valle",
       imageUrl: "./images/default.jpg", 
       link: "./",
+    },
+    {
+      name: "The Misfits",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
