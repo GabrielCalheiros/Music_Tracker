@@ -1370,5 +1370,10 @@ let artists = [
       name: "Julien Chang",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
+    },
+    {
+      name: "Byron de La Vandal",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
   ];
