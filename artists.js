@@ -1376,4 +1376,9 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Paddy Tarleton",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
   ];
