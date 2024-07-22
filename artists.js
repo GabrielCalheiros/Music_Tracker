@@ -1390,6 +1390,12 @@ let artists = [
       name: "Pusha T",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Tyler the Creator",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
+
 
   ];
