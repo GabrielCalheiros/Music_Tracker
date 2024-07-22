@@ -1381,4 +1381,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Kendrick Lamar",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+
   ];
