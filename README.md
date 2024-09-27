@@ -5,3 +5,5 @@
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 A repository designed for managing my curated list of followed artists, featuring a set of tools for my personal use, including an artist randomizer and more.
+
+Access the repo: [https://github.com/gabrielcalheiros/Music_Tracker](https://github.com/gabrielcalheiros/Music_Tracker)
