@@ -1395,6 +1395,19 @@ let artists = [
       name: "Tyler the Creator",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
+    },
+    {
+      name: "Chinese Man",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Bezerra da Silva",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
 
   ];
+
+
+  
