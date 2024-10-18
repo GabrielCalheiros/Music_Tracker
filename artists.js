@@ -1406,8 +1406,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Cassiano",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
 
   ];
-
-
-  
