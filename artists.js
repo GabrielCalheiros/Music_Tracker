@@ -1416,4 +1416,9 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Mint Condition",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
   ];
