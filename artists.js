@@ -1410,6 +1410,10 @@ let artists = [
       name: "Cassiano",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
-
+    },
+    {
+      name: "MoKenStef",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
   ];
