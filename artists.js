@@ -1421,4 +1421,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Strawberry Guy",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+
   ];
