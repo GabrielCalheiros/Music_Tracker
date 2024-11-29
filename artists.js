@@ -1426,5 +1426,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Quarteto em Cy",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
 
   ];
