@@ -1430,6 +1430,11 @@ let artists = [
       name: "Quarteto em Cy",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
+    },
+    {
+      name: "Elizete Cardoso",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
 
   ];
