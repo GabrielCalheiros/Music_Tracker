@@ -1436,5 +1436,11 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Puzzle",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    
 
   ];
