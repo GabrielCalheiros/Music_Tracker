@@ -1441,6 +1441,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
-    
+    {
+        name: "Vashti Bunyan",
+        imageUrl: "./images/default.jpg",
+        link: "./",
+    }
 
   ];
