@@ -1450,7 +1450,13 @@ let artists = [
         name: "Raimundos",
         imageUrl: "./images/default.jpg",
         link: "./",
+    },
+    {
+        name: "Zeca Pagodinho",
+        imageUrl: "./images/default.jpg",
+        link: "./",
     }
+
 
 
   ];
