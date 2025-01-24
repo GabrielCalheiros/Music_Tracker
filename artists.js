@@ -1455,7 +1455,13 @@ let artists = [
         name: "Zeca Pagodinho",
         imageUrl: "./images/default.jpg",
         link: "./",
-    }
+    },
+    {
+        name: "Os Originais do Samba",
+        imageUrl: "./images/default.jpg",
+        link: "./",
+    },
+
 
 
 
