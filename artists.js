@@ -1461,6 +1461,12 @@ let artists = [
         imageUrl: "./images/default.jpg",
         link: "./",
     },
+    {
+        name: "Grupo Revelação",
+        imageUrl: "./images/default.jpg",
+        link: "./",
+    },
+
 
 
 
