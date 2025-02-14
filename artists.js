@@ -1466,9 +1466,11 @@ let artists = [
         imageUrl: "./images/default.jpg",
         link: "./",
     },
-
-
-
+    {
+        name: "DeBarge",
+        imageUrl: "./images/default.jpg",
+        link: "./",
+    },
 
 
   ];
