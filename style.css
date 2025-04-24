@@ -1,31 +1,89 @@
-body {
-  max-width: 50%;
-  margin-left: 25%;
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "left center right";
+}
+
+.left { grid-area: left; }
+
+.right { grid-area: right; }
+
+.center { grid-area: center; }
+
+body{
+  margin-left: 25%; 
+  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
   background-color: black;
   color: white;
-  font-family: "Times New Roman", Times, serif;
 }
 
-h3 {
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
+a{
   color: white;
+  text-decoration: none;
 }
 
-li:hover, a:hover {
+a:hover{
   color: goldenrod;
 }
 
-p {
-  font-size: large;
+footer{
+  text-align: center;
 }
 
-hr {
-  color: white;
+
+button {
+  background: rgb(255, 255, 255);
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 2vh;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
 }
+
+button:hover {
+  background-color: goldenrod;
+}
+
+button:active {
+  background-color: rgba(218, 165, 32, 0.711);
+}
+
+.menu_item{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size:x-large;
+  width: -webkit-fill-available;
+  border-radius: 0px;
+  text-align: left;
+  border-radius: 3px;
+}
+
+.menu_item:hover{
+  background: linear-gradient(270deg, rgba(0,0,0,1) 10%, rgb(255, 255, 255) 90%);
+  color: black;
+}
+
+.procotol_list li{
+  margin-top: 2vh;
+}
+
+ul{
+  /* Prevent the <ul> from splitting across columns */
+  break-inside: avoid-column; 
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
 
 ol {
   /* columns: 3; */
@@ -56,33 +114,4 @@ ol {
   ol {
     columns: 3 !important;
   }
-}
-
-
-button {
-  background: rgb(255, 255, 255);
-  border: none;
-  color: black;
-  cursor: pointer;
-  margin-top: 2vh;
-  width: 20vh;
-  height: 5vh;
-  border-radius: 10px;
-  font-size: larger;
-  font-weight: bolder;
-  font-family: "Times New Roman", Times, serif;
-}
-
-button:hover {
-  background-color: goldenrod;
-}
-
-button:active {
-  background-color: rgba(218, 165, 32, 0.711);
-}
-
-
-.menu_item:hover {
-  color: black;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(0,0,0,1) 100%);
 }
