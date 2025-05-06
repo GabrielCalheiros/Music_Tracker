@@ -1471,6 +1471,17 @@ let artists = [
         imageUrl: "./images/default.jpg",
         link: "./",
     },
+    {
+      name: "Norma Tanega",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Kino",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
 
 
   ];
+ 
