@@ -234,8 +234,10 @@ Modern English - I Melt With You
 Toto - Africa
 Laura Branigan - Self Control
 The Human League - Don't You Want Me
+The The - This is the Day
 Rufus and Chaka Khan - Ain't Nobody
 Phil Collins - Sussudio
+Daryl Hall & John Oates - Private Eyes
 Duran Duran - Hungry like the Wolf
 New Order - Blue Monday 88
 Fleetwood Mac - Everywhere
@@ -260,6 +262,11 @@ Level 42 - Something About You
 Alphaville - Big In Japan
 Asia - Heat Of The Moment
 Michael Jackson- Hot Street
+Oingo Boingo - Not My Slave
+Daryl Hall & John Oates - Out of Touch
+Marshall Crenshaw - Someday Someway
+Toto - Stop Loving You
+The The - Uncertain Smile
 
 --------------------------------------------------------------------------------------------------------------------
    _____                 _           
@@ -469,6 +476,23 @@ Heartless
 Devil in a New Dress
 World War 3
 530
+Gold Digger
+All Falls Down
+All of the Lights
+Flashing Lights
+American Boy
+Through The Wire
+Can't Tell Me Nothing
+Heartless
+Stronger
+Runaway
+Closed on Sunday
+Follow God
+Jesus Walks
+Can Tell me Nothing
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------
   _______ _            _____      _ _          
@@ -519,3 +543,8 @@ The Cure - Caterpillar
 The Cure - The End of The World
 The Cure - How Beautiful You Are
 The Cure - Why cant i be you?
+
+
+
+
+
