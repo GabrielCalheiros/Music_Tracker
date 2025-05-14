@@ -1481,6 +1481,11 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Mild High Club",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
 
 
   ];
