@@ -1485,6 +1485,21 @@ let artists = [
       name: "Mild High Club",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "JuanLargo Tha Six6",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Joey Valence & Brae",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Sui Uzi",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
 
 
