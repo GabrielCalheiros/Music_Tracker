@@ -1500,7 +1500,18 @@ let artists = [
       name: "Sui Uzi",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Wilson Simonal",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Forest (The Foresters of Walesby)",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
+
 
 
   ];
