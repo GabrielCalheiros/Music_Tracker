@@ -1442,34 +1442,34 @@ let artists = [
       link: "./",
     },
     {
-        name: "Vashti Bunyan",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "Vashti Bunyan",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
-        name: "Raimundos",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "Raimundos",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
-        name: "Zeca Pagodinho",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "Zeca Pagodinho",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
-        name: "Os Originais do Samba",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "Os Originais do Samba",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
-        name: "Grupo Revelação",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "Grupo Revelação",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
-        name: "DeBarge",
-        imageUrl: "./images/default.jpg",
-        link: "./",
+      name: "DeBarge",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     },
     {
       name: "Norma Tanega",
@@ -1510,9 +1510,11 @@ let artists = [
       name: "Forest (The Foresters of Walesby)",
       imageUrl: "./images/default.jpg",
       link: "./",
-    }
-
-
+    },
+    {
+      name: "Pink Rhythm",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
 
   ];
- 
