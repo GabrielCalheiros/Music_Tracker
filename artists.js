@@ -1516,5 +1516,24 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
-
+    {
+      name: "Maneva",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Ponto de Equilibrio",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Mato Seco",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
+    {
+      name: "Planta e Raiz",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    },
   ];
