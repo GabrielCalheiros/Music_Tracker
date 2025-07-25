@@ -1537,3 +1537,4 @@ let artists = [
       link: "./",
     },
   ];
+
