@@ -1536,5 +1536,10 @@ let artists = [
       imageUrl: "./images/default.jpg",
       link: "./",
     },
+    {
+      name: "Los Calchakis",
+      imageUrl: "./images/default.jpg",
+      link: "./",
+    }
   ];
 
