@@ -1540,6 +1540,11 @@ let artists = [
       name: "Los Calchakis",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "Alternative Radio",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
   ];
 
