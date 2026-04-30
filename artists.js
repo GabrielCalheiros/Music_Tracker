@@ -1545,6 +1545,12 @@ let artists = [
       name: "Alternative Radio",
       imageUrl: "./images/default.jpg",
       link: "./",
+    },
+    {
+      name: "The Long Faces",
+      imageUrl: "./images/default.jpg",
+      link: "./",
     }
+
   ];
 
